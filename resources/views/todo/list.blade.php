@@ -9,7 +9,7 @@
          </div>
          <div class="col-md-6">
              <div class="float-right">
-                 <a href="{{ route('todo.create') }}" class="btn btn-primary"><i class="fa fa-plus"></i>Novo Usuário</a>
+                 <a href="{{ route('todo.create') }}" class="btn btn-primary"><i class="fa fa-plus"></i>Novo Tarefa</a>
              </div>
          </div>
          <br>
@@ -55,7 +55,7 @@
                          </tr>
                         @empty
                         <tr>
-                            <td colspan="4"><center>No data found</center></td>
+                            <td colspan="4"><center>Nenhum dado encontrado</center></td>
                         </tr>
                  </tbody>
                  @endforelse
